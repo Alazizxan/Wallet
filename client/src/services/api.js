@@ -2,7 +2,7 @@ import axios from 'axios';
 import useTelegram from "./telegram.js";
 
 const api = axios.create({
-    baseURL: process.env.BASE_URL,
+    baseURL: "https://wallet-rclg.onrender.com/",
     timeout: 1000,
 });
 
